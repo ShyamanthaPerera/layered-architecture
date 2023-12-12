@@ -15,9 +15,4 @@ public class Boy {
     public void chatWithGirl(){
         agreement.chat();
     }
-
-    public static void main(String[] args) {
-        Boy boy=new Boy(new Girl());
-        boy.chatWithGirl();
-    }
 }
