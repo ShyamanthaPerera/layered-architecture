@@ -11,9 +11,4 @@ public class Boy implements II{
     public void inject(Agreement a){
         this.agreement = a;
     }
-    public static void main(String[] args) {
-        Boy boy = new Boy();
-        boy.inject(new Girl());
-        boy.chatWithGirl();
-    }
 }
