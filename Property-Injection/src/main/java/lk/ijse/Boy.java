@@ -10,10 +10,4 @@ public class Boy {
     public void test(){
         agreement.chat();
     }
-
-    public static void main(String[] args) {
-        Boy boy=new Boy();
-        boy.chatWithGirl();
-        boy.test();
-    }
 }
